@@ -25,7 +25,7 @@ export class AppComponent  implements OnInit{
   ngOnInit() {
       // this.customerService.getCustomersMedium().then(data => this.customers1 = data);
       // this.customerService.getCustomersMedium().then(data => this.customers2 = data);
-      console.log("wetin dey sup na");
+     // console.log("wetin dey sup na");
   }
 
   }
