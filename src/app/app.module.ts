@@ -7,17 +7,19 @@ import  {ProgressBarModule}  from 'primeng/progressbar';
 import  {TableModule}  from 'primeng/table';
 import { compileNgModule } from "@angular/compiler";
 import { CommonModule } from "@angular/common";
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CommonModule,
-    TableModule
+    TableModule,
+    HttpClientModule
     
     
   ],
@@ -25,3 +27,4 @@ import { CommonModule } from "@angular/common";
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+ 

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TableComponent } from './table/table.component';
+import { TodoComponent } from './todo/todo.component';
 
 // const routes: Routes = [
 //   { path: 'table', component: TableComponent },
@@ -16,7 +17,7 @@ import { TableComponent } from './table/table.component';
                     // { path: 'dashboard', component: DashboardComponent, data: { permission: 'Pages.Tenant.Dashboard' } },
 
                     { path: 'table', component: TableComponent },
-                    
+                    { path: 'todo', component: TodoComponent },
 
                     { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
                     { path: '**', redirectTo: 'dashboard' }
